@@ -1,5 +1,4 @@
 # string type
-from logging import NullHandler
 
 print ("Adding skills to act more pro")
  # integer type
@@ -54,10 +53,12 @@ print (*Datatypes, sep='\n')
 my_dict = {
     "name": "NIHA",
 "phone": "+1 234 567 890",
-"profession": "qa engineer", }  # why format is : and different in dictionary
+"profession": "qa engineer", }
 
-#print(my_dict)
+print(my_dict)
 print (my_dict["profession"])
+
+#print(*my_dict, sep='\n')
 
 # sets
 
@@ -74,4 +75,5 @@ print(colors)
 print(colors[1])
 
 
-#print (*my_dict, sep='\n') ask sandeep why result is not printing as list
+
+
